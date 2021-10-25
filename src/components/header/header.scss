@@ -1,0 +1,27 @@
+.header,
+.card {
+    background-color: #276eadf5 !important;
+    border-radius: 10px !important;
+
+    .card-body {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .logo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            img {
+                width: 60px;
+            }
+
+            span {
+                font-weight: 500;
+                line-height: 18px;
+                color: #eb6f4c;
+            }
+        }
+    }
+}

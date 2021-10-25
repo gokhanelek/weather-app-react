@@ -1,0 +1,36 @@
+.current-weather {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    color: #fff;
+
+    .current-info {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        img {
+            width: 100px;
+        }
+    }
+
+    .current-other-info {
+        display: flex;
+        flex-direction: column;
+
+        ul {
+            list-style: none;
+
+            li {
+                span {
+                    line-height: 20px;
+                }
+            }
+        }
+    }
+}
+
+.current-weather-none {
+    display: none;
+}
